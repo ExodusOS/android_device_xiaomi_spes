@@ -27,6 +27,7 @@ PRODUCT_DEVICE := spes
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11
 PRODUCT_MANUFACTURER := Xiaomi
+EXODUS_MAINTAINER := melles1991-&-Sensei-Developer
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
