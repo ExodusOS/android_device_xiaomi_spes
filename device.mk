@@ -449,7 +449,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.stnfc.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.smartcharging.rc
 
 # Sensors
 PRODUCT_PACKAGES += \

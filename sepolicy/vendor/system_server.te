@@ -9,3 +9,7 @@ allow system_server hal_displayfeature_default:binder { call transfer };
 allow system_server system_server:capability { sys_module };
 
 allow system_server vendor_sysfs_battery_supply:file rw_file_perms;
+
+#smart charger
+r_dir_file(system_server, sysfs_battery_supply)
+allow system_server sysfs_battery_supply:file { getattr open read write };
